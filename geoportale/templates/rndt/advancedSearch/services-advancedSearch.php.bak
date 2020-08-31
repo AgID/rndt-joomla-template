@@ -1,0 +1,42 @@
+<?php
+
+header('Content-Type: application/json');
+
+$GPT_REST_URL_SERVER = $_POST['GPT_REST_URL_SERVER'];
+if(empty($GPT_REST_URL_SERVER)) exit("errore");
+
+$url = urldecode($GPT_REST_URL_SERVER);
+
+if (!(!filter_var($url, FILTER_VALIDATE_URL) === false)) {
+    $str = str_replace('"',"%22",$url);
+    $str = str_replace(' ',"%20",$str);
+    $str = substr( $str, 1 );
+    //$str = str_replace($_POST['url'],"",$url);
+    //$str = str_replace("/","-specialkeyonlyserviceadvancedsearch-",$str);
+
+    //$str = urlencode($str);
+    //$str = str_replace("-specialkeyonlyserviceadvancedsearch-","/",$str);
+    $url = $_POST['url'] ."?".$str;
+}
+//var_dump($url);
+
+try {
+    $opts = array(
+        'http'=>array(
+            'method'=>"GET",
+            'header'=>"Accept-language: en\r\n" .
+                "Cookie: foo=bar\r\n"
+        )
+    );
+
+    $context = stream_context_create($opts);
+    $html = file_get_contents($url,false,$context);
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+}
+
+
+
+
+
+?>

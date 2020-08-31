@@ -1,0 +1,383 @@
+@charset "UTF-8";
+body.agid-site #sliding-popup {
+  background: url(img/nero_80.png) repeat 0 0; }
+  body.agid-site #sliding-popup .popup-content {
+    max-width: 960px; }
+
+.nav-controls-site a span {
+  left: -9999em;
+  position: absolute; }
+
+div.l-nav-social .nav-social li {
+  float: left;
+  display: inline; }
+div.l-nav-social .nav-social a {
+  padding-right: 30px; }
+
+.list-personas .media-txt {
+  overflow: hidden; }
+
+.nav-controls-site a span {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  left: auto;
+  position: static; }
+
+.region-navigation li li a::-moz-selection {
+  background: transparent; }
+.region-navigation li li a::selection {
+  background: transparent; }
+
+.page-node .block-news .list-news {
+  overflow: hidden; }
+.page-node .block-news .item-list {
+  width: 103%;
+  display: block;
+  margin: 0 0 0 -3%; }
+.page-node .block-news .views-row {
+  float: left;
+  display: inline;
+  width: 47%;
+  clear: none;
+  margin: 0 0 20px 3%;
+  padding: 0;
+  border-width: 0; }
+  .page-node .block-news .views-row:nth-child(2n+1) {
+    clear: left; }
+
+.pane-top-news .item-list .fig {
+  float: left;
+  display: inline;
+  width: auto;
+  max-width: 50%;
+  margin-right: 10px; }
+.pane-top-news .views-row {
+  width: 100%;
+  float: left;
+  display: inline;
+  clear: both; }
+
+#leggi-anche .item-list ul, #leggi-anche .item-list ol {
+  overflow: hidden; }
+#leggi-anche .item-list {
+  width: 103%;
+  display: block;
+  margin: 0 0 0 -3%; }
+#leggi-anche .views-row {
+  float: left;
+  display: inline;
+  width: 47%;
+  clear: none;
+  margin: 0 0 20px 3%;
+  padding: 0;
+  border-width: 0; }
+  #leggi-anche .views-row:nth-child(2n+1) {
+    clear: left; }
+  #leggi-anche .views-row img {
+    display: block;
+    width: auto;
+    margin: 0 auto; }
+
+div.l-nav-social {
+  width: 29.3%;
+  float: right;
+  display: inline;
+  margin: 0;
+  padding: 0 0 0 1%;
+  border: 1px solid #eeeeee;
+  border-width: 0 0 0 1px; }
+  div.l-nav-social .nav-social li {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 0 0 10px; }
+
+/*
+	=pages //_page
+*/
+/* =_home.scss */
+.page-home .pane-1 {
+  margin-bottom: 0; }
+.page-home .pane-2,
+.page-home .pane-docs,
+.page-home .pane-3,
+.page-home .pane-4 {
+  float: left;
+  display: inline;
+  width: 48%;
+  clear: left; }
+.page-home .pane-2,
+.page-home .pane-4 {
+  float: right;
+  display: inline;
+  clear: right; }
+
+.pane-1,
+.pane-search-form {
+  width: 65.5%; }
+
+.agid-claim {
+  font-size: 38px;
+  font-size: 2.71429rem;
+  line-height: 1.05263; }
+
+.col2sx .sidebar {
+  float: left;
+  display: inline;
+  width: 25%; }
+.col2sx #content {
+  float: right;
+  display: inline;
+  width: 72%; }
+
+/*
+	=node
+*/
+.page-node .node-pagina-novita {
+  position: relative;
+  z-index: 1;
+  padding-left: 25%; }
+  .page-node .node-pagina-novita .field-type-image {
+    width: 22.91667%;
+    max-width: none;
+    float: left;
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0; }
+
+.node-type-pagina-novita #content .block-views {
+  margin-left: 25%; }
+
+.panel-display .pane-content {
+  padding: 0 10px; }
+
+.pane-top-news .item-list,
+.page-home .pane-focus-news .item-list {
+  width: 103%;
+  display: block;
+  margin: 0 0 0 -3%; }
+.pane-top-news .views-row,
+.page-home .pane-focus-news .views-row {
+  float: left;
+  display: inline;
+  width: 30.3%;
+  margin: 0 0 20px 3%;
+  clear: none;
+  padding: 0;
+  border-width: 0; }
+.pane-top-news .more-link,
+.page-home .pane-focus-news .more-link {
+  padding: 0 10px; }
+
+.pane-top-news {
+  background-color: #f1f1f1; }
+
+.pane-top-news .item-list .fig {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px; }
+
+/*
+	_newsletter.scss
+*/
+.col1 #simplenews-subscriptions-page-form {
+  max-width: 50%; }
+
+.block .content {
+  padding: 0 10px; }
+
+.breadcrumb {
+  padding: 2.85714em 0 10px;
+  margin: 10px auto 20px; }
+  .page-search .breadcrumb {
+    padding-top: 0; }
+
+/*
+	=region-navigation
+*/
+.header-inner .site-brand {
+  width: 36.04167%;
+  max-width: none; }
+
+.region-navigation {
+  width: 96%;
+  position: absolute;
+  z-index: 1;
+  right: 2%;
+  bottom: 0; }
+  .region-navigation #menu-main {
+    max-width: 63.9583%; }
+  .region-navigation .block-search {
+    clear: both;
+    position: absolute;
+    z-index: 1;
+    bottom: -4.28571em;
+    left: 0;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0; }
+    .region-navigation .block-search .content {
+      max-width: 960px;
+      width: 100%;
+      padding: 10px 0; }
+  .region-navigation > ul {
+    float: right;
+    display: inline;
+    border-width: 0; }
+    .region-navigation > ul > li {
+      background: #a8336c none;
+      float: left;
+      display: inline;
+      position: static;
+      z-index: 1;
+      overflow: visible;
+      padding: 0;
+      margin-left: 1px;
+      border: 0; }
+      .region-navigation > ul > li:first-child {
+        border-width: 1px 1px 0 1px; }
+      .region-navigation > ul > li > a {
+        min-height: 20px;
+        height: auto !important;
+        height: 20px; }
+  .region-navigation .menu-item-has-children > a {
+    margin-right: 0; }
+  .region-navigation .menu-item-has-children .open-submenu {
+    position: static;
+    z-index: 1;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: middle; }
+  .region-navigation li.hover,
+  .region-navigation li.active-trail {
+    background-image: none !important;
+    background: #186975;
+    border-color: #186975; }
+    .region-navigation li.hover > a,
+    .region-navigation li.active-trail > a {
+      background-color: #186975; }
+    .region-navigation li.hover ul,
+    .region-navigation li.active-trail ul {
+      background: #186975;
+      border: 1px solid #fff; }
+  .region-navigation li.hover .open-submenu {
+    background-position: 50% -270px; }
+  .region-navigation li.active-trail {
+    background: #186975;
+    border-color: #186975; }
+    .region-navigation li.active-trail > a {
+      background-color: #186975; }
+  .region-navigation li a {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    float: none;
+    margin-right: 0; }
+  .region-navigation li ul {
+    overflow: hidden;
+    padding: 10px 0;
+    border: 1px solid #186975;
+    border-width: 1px; }
+  .region-navigation li li {
+    background: #186975;
+    width: 32%;
+    float: left;
+    display: inline;
+    border-width: 0 0 0 1px;
+    border-style: dotted;
+    margin-left: -1px;
+    padding: 0; }
+    .region-navigation li li a {
+      /*background: #186975 url(img/ico_freccia_bianca.png) no-repeat 0 15px;*/
+      color: #fff;
+      display: block;
+      margin-left: 10px;
+      padding-right: 0; }
+    .region-navigation li li a.active-trail {
+      /*background: transparent url(img/ico_freccia_bianca.png) no-repeat 0 -378px;*/
+      color: #fff;
+      font-weight: 700; }
+  .region-navigation li li:first-child {
+    border-width-top: 0; }
+  .region-navigation li li.active-trail {
+    background: transparent;
+    border-color: #fff; }
+
+.is-drop-menu ul {
+  position: absolute;
+  z-index: 10000;
+  top: 100%;
+  width: 57.14286em;
+  margin-top: -1px;
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3); }
+.is-drop-menu .hover > ul {
+  left: auto;
+  right: -1px; }
+
+.nav-controls-site {
+  clear: none;
+  left: -9999em;
+  position: absolute; }
+
+a.menu-link {
+  display: none; }
+
+.js #menu-main {
+  max-height: none;
+  overflow: visible; }
+
+/*
+	=no-js
+*/
+.no-js .region-navigation {
+  position: static;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  float: none;
+  display: block; }
+  .no-js .region-navigation > ul > li {
+    width: 100%;
+    padding: 0; }
+    .no-js .region-navigation > ul > li a {
+      display: block; }
+  .no-js .region-navigation li ul {
+    width: 100%;
+    border: 0; }
+
+body.agid-site #sliding-popup .popup-content {
+  max-width: 960px; }
+
+.region-navigation {
+  position: relative;
+  z-index: 1;
+  clear: both; }
+  .region-navigation #menu-main {
+    clear: none;
+    max-width: none;
+    float: right;
+    display: inline; }
+  .region-navigation #block-search-form {
+    background: transparent;
+    clear: none;
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: auto;
+    float: right;
+    display: inline;
+    max-width: none;
+    margin: -3.57143em 0 0;
+    padding: 0;
+    width: 31.25%; }
+
+.breadcrumb {
+  padding: 0; }

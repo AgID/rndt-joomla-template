@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.region-navigation > ul > li .open-submenu,
+.region-navigation > ul > li > a,
+.region-navigation > ul .menu-item-has-children .open-submenu,
+.region-navigation > ul .menu-item-has-children > a {
+  left: auto;
+  top: auto;
+  right: auto;
+  position: relative;
+  float: left;
+  display: block; }
+
+.list-docs .file .file-icon,
+.file .file-icon {
+  margin-right: 3px; }
+.list-docs .file a,
+.file a {
+  display: inline;
+  margin-left: 0; }
