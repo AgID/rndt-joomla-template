@@ -115,7 +115,7 @@ La configurazione di questi siti è effettuata attraverso l&#39;amministrazione 
 
 Nella sezione Valori vi sono i link ai feed.
 
-feed.png
+![alt-text](images/feed.png "feed RSS")
 
 ### Configurazione guida online
 
@@ -131,4 +131,4 @@ Questi nomi sono modificabili tramite pannello di Joomla, nella sezione:
 
 - Contenuti --> Campi aggiuntivi --> Guida
 
-guida.png
+![alt-text](images/guida.png "guida online")
