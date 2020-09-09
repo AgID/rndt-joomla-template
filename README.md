@@ -45,10 +45,10 @@ I parametri del file ```configuration.php``` da verificare/modificare sono:
 |  |  |
 | --- | --- |
 | public $auth\_server\_ldap=&quot;\*\*\*\*\*\*&quot; | Valore di sincronizzazione per le chiamate al catalogo. Deve essere uguale al valore del parametro userNoAuth nel file gpt.xml (vedi configurazione webapps) |
-| public $auth\_id = \*\*\*\*\*\*\*&#39; | Id di autenticazione ai servizi IPA per la ricerca dei nomi ufficiali degli enti della PA |
-| public $url\_WS05 = &#39;https://www.indicepa.gov.it/public-ws/WS05\_AMM.php&#39; | URL del servizio di ricerca su IPA (vedi documentazione IPA) |
-| public $url\_WS16 = &#39;https://www.indicepa.gov.it/public-ws/WS16\_DES\_AMM.php&#39; | URL del servizio di ricerca su IPA (vedi documentazione IPA) |
-| public $GeoDCATAP\_IT = &#39;https://geodati.gov.it/geodcat-ap\_it/index.php?outputTranformation=geodcatap\_it&amp;inputFormat=REST&amp;outputFormat=XML&amp;src=searchText%3DfileIdentifier%3A%22ID\_REPLACE%22&#39; | URL del servizio di trasformazione di un metadato in geodcat-ap\_it |
+| public $auth\_id = &#39;\*\*\*\*\*\*\*&#39; | Id di autenticazione ai servizi IPA per la ricerca dei nomi ufficiali degli enti della PA |
+| public $url\_WS05 = &#39;https://www.indicepa.gov.it/public-ws/WS05\_AMM.php &#39; | URL del servizio di ricerca su IPA (vedi documentazione IPA) |
+| public $url\_WS16 = &#39;https://www.indicepa.gov.it/public-ws/WS16\_DES\_AMM.php &#39; | URL del servizio di ricerca su IPA (vedi documentazione IPA) |
+| public $GeoDCATAP\_IT = &#39;https://geodati.gov.it/geodcat-ap\_it/index.php?outputTranformation=geodcatap\_it&amp;inputFormat=REST&amp;outputFormat=XML&amp;src=searchText%3DfileIdentifier%3A%22ID\_REPLACE%22 &#39; | URL del servizio di trasformazione di un metadato in geodcat-ap\_it |
 | public $geoviewer\_url = &#39;geoportale/geoviewer/index.html&#39;; | URL del visualizzatore web |
 
 **Altri parametri:**
