@@ -70,7 +70,7 @@ I parametri del file ```configuration.php``` da verificare/modificare sono:
 
 |  |  |
 | --- | --- |
-| public $ldap\_rndt\_server = &#39;ldap://192.168.1.2; | URL per server LDAP |
+| public $ldap\_rndt\_server = &#39;ldap://192.168.1.2 &#39; | URL per server LDAP |
 | public $ldap\_rndt\_port = &#39;389&#39; | Porta |
 | public $ldap\_rndt\_username = &#39;cn=amministratore,dc=RNDT,dc=com&#39; | Username amministrativo: dn dell&#39;utente di connessione |
 | public $ldap\_rndt\_password = &#39;\*\*\*\*\*\*\*\*&#39; | Password amministrativa |
@@ -85,7 +85,7 @@ I parametri del file ```configuration.php``` da verificare/modificare sono:
 |  |  |
 | --- | --- |
 | public $dbtype = &#39;mysqli&#39; | Tipo DB |
-| public $host = &#39;192.168.1.3 | URL del server DB |
+| public $host = &#39;192.168.1.3&#39; | URL del server DB |
 | public $user = &#39;utente\_joomla&#39; | Utente del database Joomla |
 | public $password = &#39;\*\*\*\*\*\*\*&#39; | Password del database Joomla |
 | public $db = &#39;mysql\_joomla&#39; | Nome del DB Joomla |
