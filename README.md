@@ -5,9 +5,9 @@ Il repository contiene i seguenti file e cartelle:
 
 - [```geoportale```](geoportale)
   - [```/includes```](geoportale/includes)
-    Contiene alcuni file .php da copiare nella cartella corrispondente nell&#39;installazione. &quot;geoportale&quot; è il nome dell&#39;applicazione Joomla, che può essere comunque modificato
+    Contiene file .php. &quot;geoportale&quot; è il nome dell&#39;applicazione Joomla, che può essere comunque modificato
   - [```/templates/rndt```](geoportale/templates/rndt)
-    Template Joomla completo dell&#39;applicazione. Va copiata nella cartella corrispondente nell&#39;installazione.
+    Template Joomla completo dell&#39;applicazione.
   - [```/images/guida```](geoportale/images/guida)
     Contiene i file html della guida in linea.
   - [```/proxy4```](geoportale/proxy4)
@@ -17,10 +17,8 @@ Il repository contiene i seguenti file e cartelle:
 
 ## Installazione
 
-L&#39;installazione del Geoportale consiste nella copia dei seguenti files:
+L&#39;installazione del Geoportale consiste nelle seguente operazioni:
 
-- ```geoportale/includes/*.php```  --> ```<webserver>/geoportale/includes```
-- [```geoportale/templates/rndt```](geoportale/templates/rndt) --> ```<webserver>/geoportale/templates```
-- [```geoportale/images/guida```](geoportale/images/guida) --> ```<webserver>/geoportale/images/guida```
-  
-
+- copiare ```geoportale/includes/*.php```  nella propria installazione ```<webserver>/geoportale/includes```
+- copiare [```geoportale/templates/rndt```](geoportale/templates/rndt) nella propria installazione ```<webserver>/geoportale/templates```
+- copiare [```geoportale/images/guida```](geoportale/images/guida) nella propria installazione ```<webserver>/geoportale/images/guida```.
