@@ -104,3 +104,33 @@ I parametri del file ```configuration.php``` da verificare/modificare sono:
 | public $smtphost = &#39;192.168.1.5&#39; | URL del server di posta |
 | public $smtpsecure = &#39;none&#39; | Autenticazione (non utilizzata) |
 | public $smtpport = &#39;25&#39; | Porta del server di posta |
+
+### Configurazione delle News
+
+Le news sono visualizzate in Homepage e vengono prelevati da 3 siti esterni.
+
+La configurazione di questi siti è effettuata attraverso l&#39;amministrazione di Joomla, ed è costituita dai seguenti articoli:
+
+- Contenuti --> Campi aggiuntivi --> Feed (EN)
+- Contenuti --> Campi aggiuntivi --> Feed (IT)
+
+Nella sezione Valori vi sono i link ai feed.
+
+feed.png
+
+### Configurazione guida online
+
+La guida online è costituita da un file html per ognuno dei 3 accessi: Pubblico, Pubblica Amministrazione, Amministratore.
+
+Il sistema ricerca le guide nella cartella geoportale/images/guida; i nomi di default sono
+
+- guida.html
+- guida_pa.html
+- guida_adm.html
+-
+
+Questi nomi sono modificabili tramite pannello di Joomla, nella sezione:
+
+- Contenuti --> Campi aggiuntivi --> Guida
+
+guida.png
