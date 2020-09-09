@@ -2,16 +2,16 @@
 
 Il repository contiene i seguenti file e cartelle:
 
-- [```geoportale```](geoportale)
-  - [```/includes```](geoportale/includes)
+- [```geoportale```](../geoportale)
+  - [```/includes```](../geoportale/includes)
     Contiene file .php. &quot;geoportale&quot; è il nome dell&#39;applicazione Joomla, che può essere comunque modificato
-  - [```/templates/rndt```](geoportale/templates/rndt)
+  - [```/templates/rndt```](../geoportale/templates/rndt)
     Template Joomla completo dell&#39;applicazione.
-  - [```/images/guida```](geoportale/images/guida)
+  - [```/images/guida```](../geoportale/images/guida)
     Contiene i file html della guida in linea.
-  - [```/proxy4```](geoportale/proxy4)
+  - [```/proxy4```](../geoportale/proxy4)
     Applicativo da utilizzare con Windows se si vogliono caricare servizi esterni al dominio di installazione. Va configurata come applicazione aspx in IIS.
-  - [```/proxyPHP```](geoportale/proxyPHP)
+  - [```/proxyPHP```](../geoportale/proxyPHP)
     Applicativo da utilizzare con Apache se si vogliono caricare servizi esterni al dominio di installazione.
     
 I requisiti minimi per eseguire il software sono i seguenti:
@@ -25,9 +25,9 @@ I requisiti minimi per eseguire il software sono i seguenti:
 
 L&#39;installazione del Geoportale consiste nelle seguente operazioni:
 
-- copiare ```geoportale/includes/*.php```  nella propria installazione ```<webserver>/geoportale/includes```
-- copiare [```geoportale/templates/rndt```](geoportale/templates/rndt) nella propria installazione ```<webserver>/geoportale/templates```
-- copiare [```geoportale/images/guida```](geoportale/images/guida) nella propria installazione ```<webserver>/geoportale/images/guida```.
+- copiare ```geoportale/includes/*.php``` nella propria installazione ```<webserver>/geoportale/includes```
+- copiare [```geoportale/templates/rndt```](../geoportale/templates/rndt) nella propria installazione ```<webserver>/geoportale/templates```
+- copiare [```geoportale/images/guida```](../geoportale/images/guida) nella propria installazione ```<webserver>/geoportale/images/guida```.
 
 ## Configurazione
 
@@ -121,12 +121,11 @@ feed.png
 
 La guida online è costituita da un file html per ognuno dei 3 accessi: Pubblico, Pubblica Amministrazione, Amministratore.
 
-Il sistema ricerca le guide nella cartella geoportale/images/guida; i nomi di default sono
+Il sistema ricerca le guide nella cartella [```geoportale/images/guida```](../geoportale/images/guida). I nomi di default sono
 
-- guida.html
-- guida_pa.html
-- guida_adm.html
--
+- [```guida.html```](../geoportale/images/guida/guida.html)
+- [```guida_pa.html```](../geoportale/images/guida/guida_pa.html)
+- [```guida_adm.html```](../geoportale/images/guida/guida_adm.html)
 
 Questi nomi sono modificabili tramite pannello di Joomla, nella sezione:
 
