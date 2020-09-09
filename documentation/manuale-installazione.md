@@ -113,7 +113,7 @@ La configurazione di questi siti è effettuata attraverso l&#39;amministrazione 
 - Contenuti --> Campi aggiuntivi --> Feed (EN)
 - Contenuti --> Campi aggiuntivi --> Feed (IT)
 
-Nella sezione Valori vi sono i link ai feed.
+Nell'immagine che segue, nel campo "Valore", sono inseriti i link ai feed di esempio.
 
 ![alt-text](images/feed.png "feed RSS")
 
