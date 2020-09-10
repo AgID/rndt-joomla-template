@@ -1,27 +1,8 @@
 # Template Joomla RNDT
 
-Applicazione Joomla/PHP che gira sotto un Web Server (ad.es. IIS 8 o Apache Web Server). Il nome dell’applicazione può essere qualunque, purché vengano coerentemente modificati i file di configurazione. Il nome utilizzato è “geoportale”.
+Applicazione Joomla/PHP che definisce l’aspetto del [**portale RNDT**](https://geodati.gov.it), resa disponibile per il riuso per creare (geo)portali con lo stesso aspetto. Nella soluzione sono presenti immagini e loghi utilizzate nel suddetto sito a mò di esempio da sostituire prima della pubblicazione. 
 
-Il repository contiene i seguenti file e cartelle:
-
-- [```geoportale```](geoportale)
-  - [```/includes```](geoportale/includes)
-    Contiene file .php. &quot;geoportale&quot; è il nome dell&#39;applicazione Joomla, che può essere comunque modificato
-  - [```/templates/rndt```](geoportale/templates/rndt)
-    Template Joomla completo dell&#39;applicazione.
-  - [```/images/guida```](geoportale/images/guida)
-    Contiene i file html della guida in linea.
-  - [```/proxy4```](geoportale/proxy4)
-    Applicativo da utilizzare con Windows se si vogliono caricare servizi esterni al dominio di installazione. Va configurata come applicazione aspx in IIS.
-  - [```/proxyPHP```](geoportale/proxyPHP)
-    Applicativo da utilizzare con Apache se si vogliono caricare servizi esterni al dominio di installazione.
-    
-I requisiti minimi per eseguire il software sono i seguenti:
-
-- Sistema operativo (Linux o Windows)
-- Apache Web server (2.4.6) (o IIS 7 o 8) installato e attivo
-- PHP 7.1 installato e configurato inclusa estensione per mysql, mbstring e ldap
-- Joomla 3.8 con estensione Shmanic LDAP.
+Il nome dell’applicazione può essere qualunque, purché vengano coerentemente modificati i file di configurazione. Il nome utilizzato di default è “geoportale”.
 
 ## Documentazione
 
