@@ -13,8 +13,10 @@ Il repository contiene i seguenti file e cartelle:
     Applicativo da utilizzare con Windows se si vogliono caricare servizi esterni al dominio di installazione. Va configurata come applicazione aspx in IIS.
   - [```/proxyPHP```](../geoportale/proxyPHP)
     Applicativo da utilizzare con Apache se si vogliono caricare servizi esterni al dominio di installazione.
+- [```documentation```](../documentation)
+    Manuale di installazione e configurazione.
     
-I requisiti minimi per eseguire il software sono i seguenti:
+I prerequisiti minimi per eseguire il software sono i seguenti:
 
 - Sistema operativo (Linux o Windows)
 - Apache Web server (2.4.6) (o IIS 7 o 8) installato e attivo
