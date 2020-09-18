@@ -134,3 +134,34 @@ Questi nomi sono modificabili tramite pannello di Joomla, nella sezione:
 - Contenuti --> Campi aggiuntivi --> Guida
 
 ![alt-text](images/guida.png "guida online")
+
+### Configurazione connessione a LDAP
+
+La connessione ad LDAP viene gestita nel file [```geoportale/includes/LdapCustom.php```](../geoportale/includes/LdapCustom.php).
+
+In questo file sono presenti le seguenti dichiarazioni:
+
+```text
+const BASE_DN = &quot;dc=rndt,dc=com&quot;;
+
+const BASE_USER = &quot;ou=Users,ou=People&quot;;
+
+const BASE_ENTE = &quot;ou=Ente,ou=People&quot;;
+
+const BASE_GROUP = &quot;ou=Groups,ou=People&quot;;
+```
+
+dove
+
+- BASE_DN: è la root dell&#39;albero LDAP;
+- BASE_USER: è il sottoramo degli utenti;
+- BASE_ENTE: è il sottoramo degli enti;
+- BASE_GROUP: è il sottoramo dei ruoli.
+
+Inoltre va configurato il componente Shmanic LDAP dal pannello amministrativo di Joomla:
+
+Componenti --> Shmanic LDAP --> LDAP Host Configuration
+
+come in figura seguente:
+
+
