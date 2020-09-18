@@ -164,4 +164,4 @@ Componenti --> Shmanic LDAP --> LDAP Host Configuration
 
 come in figura seguente:
 
-
+![alt-text](images/ldap.png "LDAP")
