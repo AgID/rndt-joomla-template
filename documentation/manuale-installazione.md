@@ -9,10 +9,6 @@ Il repository contiene i seguenti file e cartelle:
     Template Joomla completo dell&#39;applicazione.
   - [```/images/guida```](../geoportale/images/guida)
     Contiene i file html della guida in linea.
-  - [```/proxy4```](../geoportale/proxy4)
-    Applicativo da utilizzare con Windows se si vogliono caricare servizi esterni al dominio di installazione. Va configurata come applicazione aspx in IIS.
-  - [```/proxyPHP```](../geoportale/proxyPHP)
-    Applicativo da utilizzare con Apache se si vogliono caricare servizi esterni al dominio di installazione.
 - [```documentation```](../documentation)
     Manuale di installazione e configurazione.
     
