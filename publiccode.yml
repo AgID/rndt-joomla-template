@@ -13,7 +13,7 @@ description:
     features:
       - >-
         Template Joomla per l'implementazione di (geo)portali.
-    genericName: Catalogo metadati RNDT
+    genericName: Template Joomla RNDT
     longDescription: >
       **Template Joomla RNDT** è un'applicazione Joomla/PHP che definisce l’aspetto del **portale del Repertorio Nazionale dei Dati Territoriali** ([**RNDT**](https://geodati.gov.it)) in coerenza con le [Linee guida di design per i servizi digitali della PA](https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/it/stabile/index.html), resa disponibile per il riuso per creare (geo)portali con lo stesso aspetto.
       
@@ -54,7 +54,7 @@ maintenance:
     - name: RTI Fastweb - Leonardo - SIA (sub-contractor ESRI Italia)
       until: '2021-08-04'
   type: contract
-name: Catalogo metadati RNDT
+name: Template Joomla RNDT
 platforms:
   - windows
   - linux
