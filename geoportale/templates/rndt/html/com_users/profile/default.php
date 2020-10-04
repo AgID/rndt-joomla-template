@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 
 $this->form->reset( true ); // to reset the form xml loaded by the view
-if (!defined("DS")): define("DS", DIRECTORY_SEPARATOR);
+if (!defined("DS")) define("DS", DIRECTORY_SEPARATOR); 
 $this->form->loadFile( dirname(__FILE__) . DS . "profile.xml"); // to load in our own version of login.xml
   
 ?>
