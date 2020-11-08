@@ -9,6 +9,8 @@ Il repository contiene i seguenti file e cartelle:
     Template Joomla completo dell&#39;applicazione.
   - [```/images/guida```](../geoportale/images/guida)
     Contiene i file html della guida in linea.
+  - [```/language/overrides```](../geoportale/language/overrides)
+    Contiene i file degli override delle lingue Italiano e Inglese.
 - [```documentation```](../documentation)
     Manuale di installazione e configurazione.
     
