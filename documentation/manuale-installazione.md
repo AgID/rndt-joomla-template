@@ -11,6 +11,8 @@ Il repository contiene i seguenti file e cartelle:
     Contiene i file html della guida in linea.
   - [```/language/overrides```](../geoportale/language/overrides)
     Contiene i file degli override delle lingue Italiano e Inglese.
+  - [```/RNDT-JoomlaDB```](../geoportale/RNDT-JoomlaDB)
+    Contiene il dump del DB Joomla utile per ricreare i contenuti del portale.
 - [```documentation```](../documentation)
     Manuale di installazione e configurazione.
     
