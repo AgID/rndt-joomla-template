@@ -27,7 +27,8 @@ L&#39;installazione del Geoportale consiste nelle seguente operazioni:
 
 - copiare ```geoportale/includes/*.php``` nella propria installazione ```<webserver>/geoportale/includes```
 - copiare [```geoportale/templates/rndt```](../geoportale/templates/rndt) nella propria installazione ```<webserver>/geoportale/templates```
-- copiare [```geoportale/images/guida```](../geoportale/images/guida) nella propria installazione ```<webserver>/geoportale/images/guida```.
+- copiare [```geoportale/images/guida```](../geoportale/images/guida) nella propria installazione ```<webserver>/geoportale/images/guida```
+- copiare [```geoportale/language/overrides```](../geoportale/language/overrides) nella propria installazione ```<webserver>/geoportale/language/overrides```..
 
 ## Configurazione
 
